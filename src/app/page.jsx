@@ -16,26 +16,21 @@ const Homepage = () => {
 				<div className='h-1/2 lg:h-full lg:w-1/2 relative'>
 					<Image src='/hero.png' alt='' fill className='object-contain' />
 				</div>
-				{/* TEXT CONTAINER */}
 				<div className='h-1/2 lg:h-full lg:w-1/2 flex flex-col gap-8 items-center justify-center'>
-					{/* TITLE */}
 					<h1 className='text-4xl md:text-6xl font-bold'>
-						Crafting Digital Experiences, Designing Tomorrow.
+						Hello! I&apos;m Gagik Antonyan ֍ Frontend Developer
 					</h1>
-					{/* DESC */}
-					<p className='md:text-xl'>
-						Welcome to my digital canvas, where innovation and creativity
-						converge. With a keen eye for aesthetics and a mastery of code, my
-						portfolio showcases a diverse collection of projects that reflect my
-						commitment to excellence.
-					</p>
-					{/* BUTTONS */}
 					<div className='w-full flex gap-4'>
-						<button className='p-4 rounded-lg ring-1 ring-black bg-black text-white'>
-							View My Work
+						<button className='p-4 rounded-lg ring-1 ring-black bg-black text-white hover:bg-transparent hover:text-black'>
+							<a
+								target='_blank'
+								href='https://docs.google.com/document/d/1u2_Yyq7YaitSyuOR8RCmgHEaNwZDi2idPId-R0adEms/edit?usp=sharing'
+							>
+								View My CV
+							</a>
 						</button>
-						<button className='p-4 rounded-lg ring-1 ring-black'>
-							Contact Me
+						<button className='p-4 rounded-lg ring-1 ring-black hover:bg-black hover:text-white'>
+							<a href='/contact'>Contact Me</a>
 						</button>
 					</div>
 				</div>
