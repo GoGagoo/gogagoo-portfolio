@@ -90,16 +90,16 @@ const Navbar = () => {
 			</div>
 			{/* SOCIAL */}
 			<div className='hidden md:flex gap-4 w-1/3'>
-				<Link href='https://t.me/doubleG_json'>
+				<Link target='_blank' href='https://t.me/doubleG_json'>
 					<Image src='/telegram.svg' alt='' width={24} height={24} />
 				</Link>
-				<Link href='https://www.instagram.com/gago_chad/'>
+				<Link target='_blank' href='https://www.instagram.com/gago_chad/'>
 					<Image src='/instagram.svg' alt='' width={24} height={24} />
 				</Link>
-				<Link href='https://github.com/GoGagoo'>
+				<Link target='_blank' href='https://github.com/GoGagoo'>
 					<Image src='/github.svg' alt='' width={27} height={27} />
 				</Link>
-				<Link href='https://vk.com/ohmangod_damn'>
+				<Link target='_blank' href='https://vk.com/ohmangod_damn'>
 					<Image src='/vk.svg' alt='' width={24} height={24} />
 				</Link>
 				<Link href='tel: +7 995 566 5553'>
