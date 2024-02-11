@@ -1,36 +1,77 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# GoGagoo Portfolio v.2.
 
-## Getting Started
+![cv](https://i.postimg.cc/fy0MjGBs/945shots-so.jpg)
 
-First, run the development server:
+Добро пожаловать в репозиторий моего сайта [«GoGagoo Portfolio v.2.»](https://anim-portfolio.vercel.app). Первая версия сайта была очень удобной и красивой, но я решил сделать сайт портфолио покруче, чем прежний. Анимации, градиенты и переходы, всё на этом сайте!
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+## Особенности
+
+- Необычный стиль;
+- Обилие анимаций;
+- Необычные переходы;
+- Контактная форма для связи по почте.
+
+
+  ## Справочник по цвету
+| Цвет             | Код цвета                                                                |
+| ----------------- | ------------------------------------------------------------------ |
+| Основные цвета | ![#FFFFFF](https://via.placeholder.com/10/FFFFFF?text=+) #FFFFFF & ![#000000](https://via.placeholder.com/10/000000?text=+) #000000 |
+| Цвета заднего фона | ![#DBEAFE](https://via.placeholder.com/10/DBEAFE?text=+) #DBEAFE & ![#FFDBDB](https://via.placeholder.com/10/FFDBDB?text=+) #FFDBDB |
+
+
+## Стек технологий
+
+Проект был разработан с использованием следующего стека технологий:
+
+### Фронтенд:
+
+- Фреймворк: [NextJs](https://nextjs.org/)
+- Стилизация: [TailwindCSS](https://tailwindcss.com)
+- Анимации и переходы: [Framer Motion](https://www.framer.com)
+
+## Файловая структура проекта:
+
+
 ```
+├── src
+│   ├── app
+│   │    ├── about
+│   │    ├── contact
+│   │    ├── projects
+│   │    ├── layout.js
+│   │    └── page.jsx
+│   ├── components
+│   │    ├── components
+└── next.config.js 
+ ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+# Начало работы в локальном режиме
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+1. Склонируйте этот репозиторий:
 
-## Learn More
+   ```bash
+   git clone https://github.com/GoGagoo/gogagoo-portfolio.git
+   ```
 
-To learn more about Next.js, take a look at the following resources:
+2. Перейдите в директорию склонированного проекта:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+   ```bash
+   cd gogagoo-portfolio
+   ```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+3. Установите зависимости:
 
-## Deploy on Vercel
+   ```bash
+   npm install
+   ```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+4. Запустите приложение:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+   ```bash
+   npm run dev
+
+## 🔗 Ссылки
+[![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://gogagoo-portfolio.vercel.app/)
+[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/gagikantonyan/)
+[![telegram](https://img.shields.io/badge/telegram-1DA1F2?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/doubleG_json)
