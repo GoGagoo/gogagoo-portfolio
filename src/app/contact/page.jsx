@@ -82,12 +82,12 @@ const ContactPage = () => {
 
 					<button className='p-4'>
 						<a
-							class='group rounded font-semibold relative inline-block text-sm text-indigo-600 focus:outline-none focus:ring'
+							className='group rounded font-semibold relative inline-block text-sm text-indigo-600 focus:outline-none focus:ring'
 							href='#'
 						>
-							<span class='p-4 absolute inset-0 translate-x-0 translate-y-0 bg-purple-600 transition-transform group-hover:translate-x-0.5 group-hover:translate-y-0.5'></span>
+							<span className='p-4 absolute inset-0 translate-x-0 translate-y-0 bg-purple-600 transition-transform group-hover:translate-x-0.5 group-hover:translate-y-0.5'></span>
 
-							<span class='relative flex items-center justify-center border border-current bg-white px-8 py-3'>
+							<span className='relative flex items-center justify-center border border-current bg-white px-8 py-3'>
 								Send
 							</span>
 						</a>

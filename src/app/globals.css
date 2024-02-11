@@ -1,3 +1,32 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+::-webkit-scrollbar {
+	width: 6px;
+	background: transparent;
+}
+
+/* Оформление scrollbar */
+::-webkit-scrollbar-thumb {
+	background: linear-gradient(to right, #8360c3, #2ebf91); /* Градиентный фон */
+	border-radius: 5px; /* Скругленные углы */
+	margin-right: 10px; /* Отступ справа */
+	transition: background 0.3s; /* Анимация изменения фона */
+}
+
+/* Оставить отступ справа */
+::-webkit-scrollbar-thumb {
+	margin-right: 10px; /* Отступ справа */
+}
+
+/* Анимация появления и исчезания scrollbar при наведении */
+::-webkit-scrollbar-thumb:hover {
+	background: linear-gradient(
+		to right,
+		#2ebf91,
+		#8360c3
+	); /* Новый градиентный фон */
+	margin-right: 0; /* Убрать отступ справа при наведении */
+	transition: background 0.3s, margin-right 0.3s; /* Анимация изменения фона и отступа при наведении */
+}
