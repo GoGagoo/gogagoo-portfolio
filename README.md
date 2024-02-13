@@ -41,7 +41,6 @@
 │   │    ├── layout.js
 │   │    └── page.jsx
 │   ├── components
-│   │    ├── components
 └── next.config.js 
  ```
 
