@@ -30,3 +30,7 @@
 	margin-right: 0; /* Убрать отступ справа при наведении */
 	transition: background 0.3s, margin-right 0.3s; /* Анимация изменения фона и отступа при наведении */
 }
+
+::selection {
+	background: #ffb7b7;
+	}
