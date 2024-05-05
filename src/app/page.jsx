@@ -25,7 +25,7 @@ const Homepage = () => {
 						Hello! I&apos;m Gagik Antonyan ֍ Frontend Developer
 					</h1>
 					<div className='w-full flex gap-4'>
-						<button className='p-4 rounded-lg ring-1 ring-black bg-black text-white hover:bg-transparent hover:text-black'>
+						<button className='p-4 rounded-lg ring-1 ring-black bg-black text-white hover:bg-transparent hover:text-black transition'>
 							<a
 								target='_blank'
 								href='https://docs.google.com/document/d/1u2_Yyq7YaitSyuOR8RCmgHEaNwZDi2idPId-R0adEms/edit?usp=sharing'
@@ -33,7 +33,7 @@ const Homepage = () => {
 								View My CV
 							</a>
 						</button>
-						<button className='p-4 rounded-lg ring-1 ring-black hover:bg-black hover:text-white'>
+						<button className='p-4 rounded-lg ring-1 ring-black hover:bg-black hover:text-white transition'>
 							<a href='/contact'>Contact Me</a>
 						</button>
 					</div>

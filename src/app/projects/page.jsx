@@ -9,11 +9,11 @@ const items = [
 	{
 		id: 1,
 		color: 'from-red-300 to-blue-300',
-		title: 'GoGagoo CV',
-		desc: 'My minimalist CV page',
-		img: '/images/1.jpg',
-		link: 'https://gogagoo-cv.vercel.app/',
-		gitUrl: 'https://github.com/GoGagoo/cv',
+		title: 'Vue Sneakers',
+		desc: 'Website online sneaker store for course project',
+		img: '/images/5.jpg',
+		link: 'https://cp-vue-sneakers-shop.vercel.app',
+		gitUrl: 'https://github.com/GoGagoo/course_project_sneakers_shop',
 	},
 	{
 		id: 2,
@@ -21,7 +21,7 @@ const items = [
 		title: 'GitHub Ninja',
 		desc: 'Small site, thanks to which can get a Github user profile',
 		img: '/images/2.jpg',
-		link: 'https://github-ninja.vercel.app/',
+		link: 'https://github-ninja.vercel.app',
 		gitUrl: 'https://github.com/GoGagoo/github-ninja',
 	},
 	{
@@ -30,7 +30,7 @@ const items = [
 		title: 'Search Input',
 		desc: 'Simple page with pretty input',
 		img: '/images/3.jpg',
-		link: 'https://gogagoo-react-input.vercel.app/',
+		link: 'https://gogagoo-react-input.vercel.app',
 		gitUrl: 'https://github.com/GoGagoo/react-test-task/',
 	},
 	{
@@ -39,8 +39,17 @@ const items = [
 		title: 'Pizza Mizza',
 		desc: 'Not hard pizza delivery site with auth and shopping cart',
 		img: '/images/4.jpg',
-		link: 'https://pizza-mizza-app.vercel.app/',
+		link: 'https://pizza-mizza-app.vercel.app',
 		gitUrl: 'https://github.com/GoGagoo/pizza-mizza-app',
+	},
+	{
+		id: 5,
+		color: 'from-red-300 to-orange-300',
+		title: 'GoGagoo CV',
+		desc: 'My minimalist CV page',
+		img: '/images/1.jpg',
+		link: 'https://gogagoo-cv.vercel.app',
+		gitUrl: 'https://github.com/GoGagoo/cv',
 	},
 ]
 
@@ -70,7 +79,7 @@ const PortfolioPage = () => {
 								key={item.id}
 							>
 								<div className='flex flex-col gap-4.5 text-white'>
-									<h1 className='text-xl mb-3 font-bold md:text-4xl lg:text-6xl xl:text-8xl'>
+									<h1 className='text-xl mb-3 font-bold md:text-3xl lg:text-5xl xl:text-7xl'>
 										{item.title}
 									</h1>
 									<div className='relative w-80 h-56 md:w-96 md:h-64 lg:w-[500px] lg:h-[350px] xl:w-[600px] xl:h-[420px]'>
@@ -81,12 +90,12 @@ const PortfolioPage = () => {
 									</p>
 									<div className='flex mt-3 justify-between'>
 										<Link target='_blank' href={item.gitUrl} className=''>
-											<button className='p-2 text-sm md:p-4 md:text-md lg:p-3 lg:text-lg bg-white text-gray-600 font-semibold rounded-lg hover:bg-black hover:text-white'>
+											<button className='p-2 text-sm md:p-4 md:text-md lg:p-3 lg:text-lg bg-white text-gray-600 font-semibold rounded-lg hover:bg-black hover:text-white transition'>
 												See Code
 											</button>
 										</Link>
 										<Link target='_blank' href={item.link}>
-											<button className='p-2 text-sm md:p-4 md:text-md lg:p-3 lg:text-lg bg-white text-gray-600 font-semibold rounded-lg hover:bg-black hover:text-white'>
+											<button className='p-2 text-sm md:p-4 md:text-md lg:p-3 lg:text-lg bg-white text-gray-600 font-semibold rounded-lg hover:bg-black hover:text-white transition'>
 												See Demo
 											</button>
 										</Link>

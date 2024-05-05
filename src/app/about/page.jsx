@@ -69,28 +69,28 @@ const AboutPage = () => {
 							animate={isSkillRefInView ? { x: 0 } : {}}
 							className='flex gap-4 flex-wrap'
 						>
-							<div className='rounded  p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black'>
+							<div className='rounded  p-2 text-sm cursor-pointer bg-black text-white transition hover:bg-white hover:text-black'>
 								React.js
 							</div>
-							<div className='rounded  p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black'>
+							<div className='rounded  p-2 text-sm cursor-pointer bg-black text-white transition hover:bg-white hover:text-black'>
 								Next.js
 							</div>
-							<div className='rounded  p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black'>
+							<div className='rounded  p-2 text-sm cursor-pointer bg-black text-white transition hover:bg-white hover:text-black'>
 								TypeScript
 							</div>
-							<div className='rounded  p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black'>
+							<div className='rounded  p-2 text-sm cursor-pointer bg-black text-white transition hover:bg-white hover:text-black'>
 								JavaScript
 							</div>
-							<div className='rounded  p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black'>
+							<div className='rounded  p-2 text-sm cursor-pointer bg-black text-white transition hover:bg-white hover:text-black'>
 								MongoDB
 							</div>
-							<div className='rounded  p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black'>
+							<div className='rounded  p-2 text-sm cursor-pointer bg-black text-white transition hover:bg-white hover:text-black'>
 								Git
 							</div>
-							<div className='rounded  p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black'>
+							<div className='rounded  p-2 text-sm cursor-pointer bg-black text-white transition hover:bg-white hover:text-black'>
 								HTML
 							</div>
-							<div className='rounded  p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black'>
+							<div className='rounded  p-2 text-sm cursor-pointer bg-black text-white transition hover:bg-white hover:text-black'>
 								CSS
 							</div>
 						</motion.div>

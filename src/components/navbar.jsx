@@ -80,10 +80,12 @@ const Navbar = () => {
 			<div className='md:hidden lg:flex xl:w-1/3 xl:justify-center'>
 				<Link
 					href='/'
-					className='text-sm bg-black rounded-md p-1 font-semibold flex items-center justify-center'
+					className='text-sm bg-black hover:bg-red-300 transition rounded-md p-1 font-semibold flex items-center justify-center'
 				>
-					<span className='text-white mr-1'>Go.</span>
-					<span className='w-12 h-8 rounded bg-white text-black flex items-center justify-center'>
+					<span className='text-white mr-1 hover:text-black transition'>
+						Go.
+					</span>
+					<span className='w-12 h-8 rounded bg-white hover:bg-black transition text-black hover:text-white flex items-center justify-center'>
 						Gagoo
 					</span>
 				</Link>
