@@ -51,6 +51,15 @@ const items = [
 		link: 'https://gogagoo-cv.vercel.app',
 		gitUrl: 'https://github.com/GoGagoo/cv',
 	},
+	{
+		id: 6,
+		color: 'from-orange-300 to-red-300',
+		title: 'SpeedSearch',
+		desc: 'Next.js high-performance API with global distribution',
+		img: '/images/6.jpg',
+		link: 'https://fastapi-counrties.vercel.app',
+		gitUrl: 'https://github.com/GoGagoo/fastapi_counrties',
+	},
 ]
 
 const PortfolioPage = () => {
