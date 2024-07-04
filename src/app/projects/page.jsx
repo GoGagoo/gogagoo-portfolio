@@ -27,11 +27,11 @@ const items = [
 	{
 		id: 3,
 		color: 'from-violet-300 to-purple-300',
-		title: 'Search Input',
-		desc: 'Simple page with pretty input',
-		img: '/images/3.jpg',
-		link: 'https://gogagoo-react-input.vercel.app',
-		gitUrl: 'https://github.com/GoGagoo/react-test-task/',
+		title: 'Acc Employee',
+		desc: 'Simple page Personal Account Employee with pretty widgets',
+		img: '/images/3.jpeg',
+		link: 'https://test-work-personal-account-employee.vercel.app',
+		gitUrl: 'https://github.com/GoGagoo/personal-account-employee',
 	},
 	{
 		id: 4,
