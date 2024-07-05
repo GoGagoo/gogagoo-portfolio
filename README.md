@@ -1,6 +1,6 @@
 # GoGagoo Portfolio v.2.
 
-![portfolio](https://i.postimg.cc/hvPK2Tf6/177shots-so.jpg)
+<img alt='' src="./public/images/mockup.jpeg" style="border-radius: 15px;">
 
 Добро пожаловать в репозиторий моего сайта [«GoGagoo Portfolio v.2.»](https://anim-portfolio.vercel.app). Первая версия сайта была очень удобной и красивой, но я решил сделать сайт портфолио покруче, чем прежний. Анимации, градиенты и переходы, всё на этом сайте!
 
