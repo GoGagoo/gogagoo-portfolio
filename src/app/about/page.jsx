@@ -26,11 +26,11 @@ const AboutPage = () => {
 					<div className='flex flex-col gap-12 justify-center'>
 						<h1 className='font-bold text-2xl'>BIOGRAPHY</h1>
 						<p className='text-lg'>
-							I&apos;m an beginner Front-end developer building web
-							applications. My goal is to improve user experience and I am
-							constantly improving my skills. I have experience working with
-							JavaScript, React.js, Typescript, MongoDB, HTML, CSS, Git and etc.
-							I am open for cooperation and new projects.
+							I&apos;m an Frontend developer building web applications. My goal
+							is to improve user experience and I am constantly improving my
+							skills. I have experience working with JavaScript, React.js,
+							Typescript, TailwinCSS, Redux, shadcn, MongoDB, HTML, CSS, Git and
+							etc. I am open for cooperation and new projects.
 						</p>
 						<motion.svg
 							initial={{ opacity: 0.2, y: 0 }}
